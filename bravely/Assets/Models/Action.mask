@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Action
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Character
+    m_Weight: 0
+  - m_Path: Character/spine_root
+    m_Weight: 0
+  - m_Path: Character/spine_root/left_pelvis
+    m_Weight: 0
+  - m_Path: Character/spine_root/left_pelvis/left_leg_root
+    m_Weight: 0
+  - m_Path: Character/spine_root/left_pelvis/left_leg_root/left_leg_1
+    m_Weight: 0
+  - m_Path: Character/spine_root/left_pelvis/left_leg_root/left_leg_1/left_foot
+    m_Weight: 0
+  - m_Path: Character/spine_root/left_pelvis/left_leg_root/left_leg_1/left_foot/left_foot_end
+    m_Weight: 0
+  - m_Path: Character/spine_root/right_pelvis
+    m_Weight: 0
+  - m_Path: Character/spine_root/right_pelvis/right_leg_root
+    m_Weight: 0
+  - m_Path: Character/spine_root/right_pelvis/right_leg_root/right_leg_1
+    m_Weight: 0
+  - m_Path: Character/spine_root/right_pelvis/right_leg_root/right_leg_1/right_foot
+    m_Weight: 0
+  - m_Path: Character/spine_root/right_pelvis/right_leg_root/right_leg_1/right_foot/right_foot_end
+    m_Weight: 0
+  - m_Path: Character/spine_root/spine_1
+    m_Weight: 0
+  - m_Path: Character/spine_root/spine_1/head
+    m_Weight: 0
+  - m_Path: Character/spine_root/spine_1/head/face
+    m_Weight: 0
+  - m_Path: Character/spine_root/spine_1/head/face/face_end
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/left_shoulder
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/left_shoulder/left_arm_root
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/left_shoulder/left_arm_root/left_arm_1
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/left_shoulder/left_arm_root/left_arm_1/left_finger_1
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/left_shoulder/left_arm_root/left_arm_1/left_finger_1/left_finger_1_end
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/left_shoulder/left_arm_root/left_arm_1/left_finger_2
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/left_shoulder/left_arm_root/left_arm_1/left_finger_2/left_finger_2_end
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/left_shoulder/left_arm_root/left_arm_1/left_finger_3
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/left_shoulder/left_arm_root/left_arm_1/left_finger_3/left_finger_3_end
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/left_shoulder/left_arm_root/left_arm_1/left_finger_4
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/left_shoulder/left_arm_root/left_arm_1/left_finger_4/left_finger_4_end
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/right_shoulder
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/right_shoulder/right_arm_root
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/right_shoulder/right_arm_root/right_arm_1
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/right_shoulder/right_arm_root/right_arm_1/right_finger_1
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/right_shoulder/right_arm_root/right_arm_1/right_finger_1/right_finger_1_end
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/right_shoulder/right_arm_root/right_arm_1/right_finger_2
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/right_shoulder/right_arm_root/right_arm_1/right_finger_2/right_finger_2_end
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/right_shoulder/right_arm_root/right_arm_1/right_finger_3
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/right_shoulder/right_arm_root/right_arm_1/right_finger_3/right_finger_3_end
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/right_shoulder/right_arm_root/right_arm_1/right_finger_4
+    m_Weight: 1
+  - m_Path: Character/spine_root/spine_1/right_shoulder/right_arm_root/right_arm_1/right_finger_4/right_finger_4_end
+    m_Weight: 1
+  - m_Path: mesh
+    m_Weight: 0

@@ -7,15 +7,16 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private MoveState moveState;
+    private ActionState actionState;
     private Animator animator;
     private Rigidbody rigid;
 
-    public MoveState MoveState { get { return moveState; } set { moveState = value; } }
 
     // Start is called before the first frame update
     void Start()
     {
-        moveState = MoveState.idling;
+        moveState = MoveState.standing;
+        actionState = ActionState.idling;
 
         animator = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody>();
@@ -23,26 +24,56 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Animate();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        HandleInput();
+        InnerUpdate();
         Move();
-    }
-
-    virtual public void HandleInput()
-    {
-        moveState.HandleInput(ref moveState);
+        Rotate();
+        Animate();
     }
     virtual public void Move()
     {
-        moveState.Move(ref rigid);
+        moveState.Move(ref rigid, transform);
+    }
+    virtual public void Rotate()
+    {
+        moveState.Rotate(transform);
     }
     virtual public void Animate()
     {
         moveState.Animate(ref animator);
+        actionState.Animate(ref animator);
+    }
+    virtual public void InnerUpdate()
+    {
+        moveState.Update(this);
+        actionState.Update(this);
+    }
+
+
+    private void Update()
+    {
+        HandleInput();
+    }   
+    virtual public void HandleInput()
+    {
+        moveState.HandleInput(ref moveState, transform);
+        actionState.HandleInput(this);
+    }
+
+
+    public ref MoveState GetReferMoveState()
+    {
+        return ref moveState;
+    }
+    public ref ActionState GetReferActionState()
+    {
+        return ref actionState;
+    }
+    public ref Animator GetReferAnimator()
+    {
+        return ref animator;
+    }
+    public ref Rigidbody GetReferRigid()
+    {
+        return ref rigid;
     }
 }
