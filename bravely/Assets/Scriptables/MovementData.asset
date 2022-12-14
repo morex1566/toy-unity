@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3327d96283a7464aad889af9229c188, type: 3}
+  m_Name: MovementData
+  m_EditorClassIdentifier: 
+  HP: 100
+  SP: 100
+  HPRegenerationSpeed: 1
+  SPRegenerationSpeed: 1
+  AttackSpeed: 1
+  RotateSpeed: 5
+  WalkSpeed: 2
+  RunSpeed: 3.5
+  AccelIdleToWalk: 1.5
+  AccelWalkToRun: 2
+  DecelWalkToIdle: 4
+  DecelRunToWalk: 2
+  STR: 1
+  VIT: 1
+  AGI: 1
+  DEX: 1

@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Weapon
+  - Interacter
+  - Detecter
+  - Equipment
+  - Hand
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -12,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
